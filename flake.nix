@@ -29,10 +29,10 @@
     };
     nurpkgs.url = "github:nix-community/NUR";
     hyprland.url = "github:hyprwm/Hyprland/v0.28.0";
-    anyrun = {
-      url = "github:Kirottu/anyrun";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    #anyrun = {
+    #  url = "github:Kirottu/anyrun";
+    #  inputs.nixpkgs.follows = "nixpkgs";
+    # };
   };
 
   outputs = inputs @ { 
